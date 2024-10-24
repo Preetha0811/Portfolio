@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preetha's Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">Preetha's Portfolio</div>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hello, I'm Preetha</h1>
+        <p>Aspiring Full-Stack Developer from Tiruppur</p>
+        <button class="cta">Download Resume</button>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I hail from the vibrant city of Tiruppur. I started my academic journey at Jai Saradha Matriculation Higher Secondary School, 
+        achieving 76.2% in SSLC and 93.3% in HSC. Currently, I am in my second year pursuing B.Tech in Artificial Intelligence and Data 
+        Science at Bannari Amman Institute of Technology, Sathyamangalam.
+      </p>
+      <p>
+        My passion lies in Full-Stack Development, and I am constantly exploring new technologies to build dynamic and user-friendly web applications. I have worked on several projects such as sentiment analysis on Twitter, real-time object detection using YOLOv3 & OpenCV, and 'Pack Perfect'—a travel checklist app that helps users organize their essentials efficiently.
+      </p>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Sentiment Analysis on Twitter</h3>
+        <p>Used NLP techniques to analyze user sentiments on Twitter using Python and NLTK library.</p>
+      </div>
+      <div class="project-card">
+        <h3>Object Detection with YOLOv3 & OpenCV</h3>
+        <p>Real-time object detection implementation using YOLOv3 and OpenCV for fast and accurate object tracking.</p>
+      </div>
+      <div class="project-card">
+        <h3>Pack Perfect</h3>
+        <p>Developed an app that assists users in organizing travel essentials with customized checklists for different categories.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p>If you'd like to reach out, feel free to send me a message!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Preetha's Portfolio | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
